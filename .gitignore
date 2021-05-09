@@ -1,0 +1,10 @@
+# Gradle
+/build
+.gradle/
+
+# Lombok
+/lombok.config
+
+# IDEA
+.idea/
+*.iml
