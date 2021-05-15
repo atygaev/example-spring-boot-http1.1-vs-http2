@@ -2,12 +2,6 @@ FROM openjdk:15
 
 WORKDIR /app
 
-COPY gradlew .
-COPY settings.gradle .
-COPY build.gradle .
-COPY src src
-COPY gradle gradle
+COPY build/libs/*.jar .
 
-RUN ./gradlew clean bootjar
-
-CMD java -jar build/libs/*.jar
+CMD java -jar *.jar
