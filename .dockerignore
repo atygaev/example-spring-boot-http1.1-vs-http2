@@ -1,0 +1,5 @@
+# Ignore everything
+**
+
+# Use project build
+!build/libs/*.jar
